@@ -3,7 +3,6 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    list-style: none;
     box-sizing: border-box;
 }
 
@@ -144,7 +143,7 @@
     width: 55%;
     float: right;
     background-color: #fdfdfd;
-    padding: 5px;
+    padding: 20px;
 }
 
 .contenitore h1{
@@ -163,6 +162,17 @@
     margin-bottom: 40px;
 }
 
+.contenitore li{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.list2{
+    list-style-position: outside;
+    padding-left: 40px;
+}
 
 /*------------crafting-----------*/
 .crafting_section{
@@ -349,16 +359,6 @@
     }
 }
 
-.list{
-    display: block; 
-    list-style-type: disc;
-    margin-top: 1em; 
-    margin-bottom: 1 em; 
-    margin-left: 0; 
-    margin-right: 0; 
-    padding-left: 40px;
-}
-
 a.nav-link{
     cursor: pointer;
 }
@@ -367,4 +367,7 @@ a.nav-link{
     height: 100vh;
 }
 
+ul li{
+    margin-left: 10px;
+}
 
